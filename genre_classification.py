@@ -4,7 +4,8 @@ import json
 import nltk
 import re
 import csv
-import matplotlib.pyplot as plt 
+import gzip
+import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -24,7 +25,7 @@ class PredictPrimaryGenre:
         self.file_to_predict = file_name
 
         self.meta_file = "MovieSummaries/movie.metadata.tsv"
-        self.plot_file = "MovieSummaries/plot_summaries.txt"
+        self.plot_file = "MovieSummaries/plot_summaries.txt.gz"
         self.peerlogix_genres_file = "peerlogix_genres.csv"
 
         self.only_peerlogix_valid_genres = True
@@ -63,7 +64,7 @@ class PredictPrimaryGenre:
     def loadMoviePlotsData(self):
         plots = []
 
-        with open(self.plot_file, 'r', encoding = 'UTF-8') as f:
+        with gzip.open(self.plot_file, 'rt', encoding = 'UTF-8') as f:
             reader = csv.reader(f, dialect='excel-tab')
             for row in tqdm(reader):
                 plots.append(row)
