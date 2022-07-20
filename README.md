@@ -14,7 +14,11 @@ As stated, we will use **machine learning** to **predict the primary genre** of 
 
 ## Individual Results (single example)
 
+##### Final Kill (2020)
+
 ![Crime](https://github.com/gorfein/TV-and-Movie-Genre-Classification/blob/main/Images/Crime.png)
+
+##### LIME Explanation
 
 ![Crime Explanation](https://github.com/gorfein/TV-and-Movie-Genre-Classification/blob/main/Images/Crime%20-%20explanation.png)
 
@@ -24,6 +28,10 @@ As stated, we will use **machine learning** to **predict the primary genre** of 
 
 ## Individual Results (single example)
 
+##### Space Pirate Captain Harlock (1978-1979)
+
 ![Sci-Fi](https://github.com/gorfein/TV-and-Movie-Genre-Classification/blob/main/Images/Science%20Fiction.png)
+
+##### LIME Explanation
 
 ![Sci-Fi Explanation](https://github.com/gorfein/TV-and-Movie-Genre-Classification/blob/main/Images/Science%20Fiction%20-%20explanation.png)
