@@ -6,7 +6,7 @@ Everyone loves binge-watching their favorite Movies and TV Shows. Nowadays, movi
 
 ## Commercial Applications
 
-Highlighting a movie's primary genre can have many commercial applications, including improved content recommendation and increased precision in understanding various actors' performance and affinities per particular genres (and consequently, across niche fan bases).
+Highlighting a movie or tv show's primary genre can have many commercial applications, including improved content recommendation and increased precision in understanding various actors' performance and affinities per particular genres (and consequently, across niche fan bases).
 
 ## Methodology
 
