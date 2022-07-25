@@ -18,6 +18,13 @@ from sklearn.multioutput import MultiOutputClassifier
 from sklearn.metrics import f1_score
 
 
+"""
+Code can be run by executing the run() method - such as the following example:
+
+PredictPrimaryGenre().run()
+"""
+
+
 class PredictPrimaryGenre:
 
     def __init__(self, threshold = 0, file_name="PeerLogix Titles (IMDb Metadata).csv"):
